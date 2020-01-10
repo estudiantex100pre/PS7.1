@@ -27,13 +27,11 @@ int main(){
 //13 hola 3 jose
 void imp(char a[]){
 	int pos=1;
-	cout<<"esto es a="<<*a<<endl ;
 		if( *a != ' '){
 			int x=atoi(a);
-			cout<<"x="<<x<<endl;
 			if(x){
 	    		if(x%2 == 1)
-	        		cout<<x<<endl ;
+	        		cout<<x<<endl ; imprime cada impar de la cadena
 				if(x>=10)
 	        		pos +=cuenta(x,0) ;
 				}
